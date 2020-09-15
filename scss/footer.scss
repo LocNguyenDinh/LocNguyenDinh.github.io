@@ -1,0 +1,161 @@
+.footer{
+  background-color: #101215;
+  color: #7d8492;
+  .footer-menu {
+    padding-top: 36px;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+
+  }
+  .title {
+    color: #d1d3d6;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 21px;
+    a {
+      color: inherit;
+      padding: 0;
+      font-size: 15px;
+    }
+  }
+  a {
+    color: #7d8492;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      padding-bottom: 5px;
+      padding-top: 5px;
+      font-size: 14px;
+    }
+  }
+  .footer-address{
+    padding-bottom: 25px;
+    .shared-experience {
+      padding-top: 35px;
+    }
+    .social {
+      font-size: 0;
+      margin-top: -37px;
+      margin-left: 100px;
+      li {
+        display: inline-block;
+        margin-right: 7px;
+        margin-left: 10px;
+        padding: 0;
+      }
+    }
+    .contact-info {
+      margin-top: 25px;
+      p {
+        font-size: 14px;
+        color: #7d8492;
+        padding: 5px 0;
+        margin: 0;
+        line-height: 24px;
+        b {
+          color: #d1d3d6;
+          font-size: 15px;
+        }
+      }
+
+    }
+  }
+  .footer-bct-hanggia img {
+    height: 44px;
+  }
+  .footer-bct-hanggia {
+    position: absolute;
+    right: 200px;
+    bottom: -10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .footer-bct {
+    position: absolute;
+    right: 50px;
+    bottom: -7px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .footer-copyright {
+    background-color: #101215;
+    color: #7d8492;
+    padding: 5px 0;
+    border-top: 1px solid #24282e;
+    font-size: 13px;
+    position: relative;
+    .copyright {
+      padding-top: 12px;
+      padding-bottom: 7px;
+      display: inline-block;
+      font-size: 13px;
+    }
+    .achievement {
+      display: inline-block;
+      font-size: 13px;
+      margin: 13px 0;
+      width: 100%;
+      span {
+        display: inline-block;
+        img {
+          height: 28px;
+        }
+      }
+    }
+  }
+
+}
+.footer-copyright{
+  .copyright {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .footer-bct-hanggia {
+      position: inherit;
+    }
+
+    .footer-bct {
+      position: initial;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .footer .col-w-20 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .footer .col-w-60 {
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-copyright {
+    .achievement {
+      span {
+        img {
+          margin-top: -12px;
+
+        }
+      }
+    }
+  }
+}
+
+

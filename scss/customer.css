@@ -1,0 +1,220 @@
+.customer-sapo .banner {
+  background: url(../images/customers/bg-banner.jpg) no-repeat bottom center;
+  padding: 71px 0 89px;
+  color: #fff; }
+  .customer-sapo .banner h1 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 20px; }
+  .customer-sapo .banner p {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0; }
+.customer-sapo .customer-slide .customer-slide > .container:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  background: -moz-linear-gradient(left, #fff 10%, #ebebeb 50%, #fff 90%);
+  background: -webkit-linear-gradient(left, #fff 10%, #ebebeb 50%, #fff 90%);
+  background: linear-gradient(to right, #fff 10%, #ebebeb 50%, #fff 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#ffffff',GradientType=1); }
+.customer-sapo .customer-slide .swiper-slide {
+  display: flex;
+  align-items: flex-start;
+  padding: 70px; }
+  .customer-sapo .customer-slide .swiper-slide .image .fa-play {
+    background: #333230;
+    width: 68px;
+    height: 48px;
+    border-radius: 15px;
+    line-height: 48px;
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%; }
+  .customer-sapo .customer-slide .swiper-slide .container {
+    position: relative; }
+  .customer-sapo .customer-slide .swiper-slide img {
+    width: 100%; }
+  .customer-sapo .customer-slide .swiper-slide .content {
+    padding: 6px 33px 59px;
+    background: url(../images/customers/slide/icon-quote.png) no-repeat bottom center; }
+    .customer-sapo .customer-slide .swiper-slide .content p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #555;
+      margin: 0 0 34px;
+      text-align: justify;
+      text-align-last: center; }
+    .customer-sapo .customer-slide .swiper-slide .content strong {
+      display: block;
+      font-size: 18px;
+      font-weight: 500;
+      color: #555;
+      margin: 0 0 4px; }
+    .customer-sapo .customer-slide .swiper-slide .content span {
+      display: block;
+      font-size: 15px;
+      color: #acacac; }
+.customer-sapo .customer-story {
+  padding-top: 76px;
+  padding-bottom: 99px; }
+  .customer-sapo .customer-story h2 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 13px; }
+  .customer-sapo .customer-story p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 57px; }
+  .customer-sapo .customer-story .item {
+    position: relative;
+    margin: 0 0 30px; }
+    .customer-sapo .customer-story .item img {
+      max-width: 100%; }
+    .customer-sapo .customer-story .item .info {
+      position: absolute;
+      box-shadow: 0 0 32px 0 rgba(0, 47, 88, 0.22);
+      background: rgba(255, 255, 255, 0.86);
+      height: 100%;
+      top: 0;
+      z-index: 9;
+      padding: 20px 38px;
+      text-align: justify;
+      text-align-last: center;
+      display: flex;
+      align-items: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: all .3s ease-in-out; }
+      .customer-sapo .customer-story .item .info p {
+        max-height: 208px;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 0 35px;
+        max-height: 78px;
+        overflow: hidden; }
+      .customer-sapo .customer-story .item .info .btn-registration {
+        height: 44px;
+        line-height: 44px;
+        font-size: 18px; }
+      .customer-sapo .customer-story .item .info .btn-registration:hover {
+        height: 44px;
+        line-height: 44px;
+        font-size: 18px;
+        text-decoration: none;
+        color: #ffffff; }
+  .customer-sapo .customer-story .item:hover .info {
+    opacity: 1;
+    visibility: visible; }
+  .customer-sapo .customer-story .viewMore {
+    text-decoration: underline;
+    font-size: 18px;
+    color: #08f;
+    vertical-align: top; }
+.customer-sapo .customer-logo {
+  background: #f4f4f4;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .customer-sapo .customer-logo h2 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0 0 15px; }
+  .customer-sapo .customer-logo p {
+    font-size: 20px;
+    line-height: 24px;
+    color: #4d505b;
+    font-weight: 300;
+    margin-bottom: 60px; }
+  .customer-sapo .customer-logo img {
+    max-width: 90%; }
+  .customer-sapo .customer-logo .item {
+    margin-bottom: 35px; }
+    .customer-sapo .customer-logo .item a {
+      background: #fff; }
+.customer-sapo .register-bottom {
+  text-align: center;
+  padding: 30px 0 45px;
+  color: #fff;
+  background: url(../images/bg-register-bottom.jpg) no-repeat top center;
+  background-size: cover !important; }
+  .customer-sapo .register-bottom h2 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 56px;
+    margin: 0 0 10px; }
+  .customer-sapo .register-bottom p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px; }
+  .customer-sapo .register-bottom .reg-form input {
+    width: 500px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 16px;
+    color: #575757;
+    padding: 0 20px;
+    margin-right: 15px;
+    border-radius: 38px;
+    border: none;
+    outline: none;
+    vertical-align: top; }
+  .customer-sapo .register-bottom .reg-form .btn-registration {
+    height: 65px;
+    line-height: 65px;
+    padding: 0 45px;
+    font-size: 24px;
+    vertical-align: top; }
+
+@media (max-width: 767px) {
+  .customer-sapo .customer-slide .swiper-slide {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px; } }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .customer-sapo .customer-story {
+    padding-top: 50px;
+    padding-bottom: 50px; } }
+@media (max-width: 767px) {
+  .customer-sapo .banner h1 {
+    font-size: 28px; }
+  .customer-sapo .banner p {
+    font-size: 18px; }
+  .customer-sapo .customer-story {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    .customer-sapo .customer-story h2 {
+      font-size: 26px; }
+    .customer-sapo .customer-story p {
+      font-size: 18px;
+      margin: 0 0 30px; }
+    .customer-sapo .customer-story .item {
+      display: inline-block; }
+  .customer-sapo .customer-logo h2 {
+    font-size: 26px; }
+  .customer-sapo .customer-logo p {
+    font-size: 18px;
+    margin: 0 0 30px; }
+  .customer-sapo .register-bottom h2 {
+    font-size: 25px;
+    line-height: 32px; }
+  .customer-sapo .register-bottom p {
+    font-size: 18px; }
+  .customer-sapo .register-bottom .reg-form .btn-registration {
+    line-height: 58px;
+    height: 58px;
+    font-size: 20px; } }
+
+/*# sourceMappingURL=customer.css.map */
